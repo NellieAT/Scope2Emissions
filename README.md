@@ -1,6 +1,6 @@
-#Scope2Emissions 
+# Scope2Emissions
 
-How Ambitious are Company Scope-2 Emissions Reduction Targets?
+How ambitious are company scope-2 emissions reduction targets?
 
 A review of SBTi data extracted from the SBTi Progress Report 2021 Appendix Data
 
