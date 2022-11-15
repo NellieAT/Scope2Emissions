@@ -7,7 +7,7 @@ Source: https://sciencebasedtargets.org/reports/sbti-progress-report-2021
 Note - to recreate this subset of data, I filtered the following parameters: (i) Target = 1 which is "100% of emissions reduction, share of renewable energy or supplier engagement company aims to achieve." (ii) Organisation type = Company (iii) Target scope = Scope 2 (iv) Target type = Renewable electricity
 
 <p align="middle">
-  <img src="Rplot.png" width="200" />
+  <img src="Rplot.png" width="500" />
 </p>
 
 
@@ -20,5 +20,5 @@ Performance:
 Sectors:
 - Of the 11 possible major GIC sectors, only the Energy sector is missing, all other sectors make at least one appearance
 - Consumer Staples is by far the most represented sector per the time of writing, followed by the Consumer Discretionary sector
-- I Expected the Utilities sector to have a high prevalence in this selection criteria, surprised to only see one company?
+- I expected the Utilities sector to have a high prevalence in this selection criteria, surprised to only see one company?
 - Real Estate, despite being exposed to a lot of climate-related transition risk, does not make much of an appearance, disappointing
