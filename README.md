@@ -7,7 +7,7 @@ Source: https://sciencebasedtargets.org/reports/sbti-progress-report-2021
 Note - to recreate this subset of data, I filtered the following parameters: (i) Target = 1 which is "100% of emissions reduction, share of renewable energy or supplier engagement company aims to achieve." (ii) Organisation type = Company (iii) Target scope = Scope 2 (iv) Target type = Renewable electricity
 
 <p align="middle">
-  <img src="Rplot.png" width="500" />
+  <img src="Rplot.png" width="650" />
 </p>
 
 
