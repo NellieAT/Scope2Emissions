@@ -1,0 +1,35 @@
+
+
+```{r}
+#Imports
+library(ggplot2)
+```
+
+
+```{r}
+#Data
+df_dumbbell = read.csv("plot_dumbbell_data.csv")  # read csv file 
+df_dumbbell
+```
+
+
+```{r}
+#Plot 
+viz <- ggplot(data=df_dumbbell, aes(x=Horizon, y=Company)) +
+       geom_line(aes(group = Paired)) + 
+         geom_point(aes(color=Horizon), size=4) +
+       labs(title="SBTi Chart", subtitle="Filters: Scope 2 Emissions, Renewables (Data as of Nov 2022)", x="Horizon", y="Company", color = "Base vs. Target Years")
+viz
+```
+
+
+```{r}
+# Plot (using line and point layers)
+viz <- ggplot(data=df_dumbbell, aes(x=Horizon, y=reorder(Company,Base))) +
+  geom_line(aes(group = Paired),color="grey") + 
+  geom_point(aes(color=Horizon), size=4) +
+  geom_vline(xintercept = 2022, color = 'red', linetype = "dashed") +
+  labs(title="SBTi Chart", subtitle="Filtered Companies (Data as of Nov 2022)", x="Horizon", y=NULL, color = "Base vs. Target Years")
+viz
+```
+
